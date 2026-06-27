@@ -1,0 +1,6 @@
+@Elevate.smartCoach_HostAddress = http://localhost:5079
+
+GET {{Elevate.smartCoach_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

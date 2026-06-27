@@ -1,0 +1,6 @@
+@Elevate.Auth_HostAddress = http://localhost:5058
+
+GET {{Elevate.Auth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

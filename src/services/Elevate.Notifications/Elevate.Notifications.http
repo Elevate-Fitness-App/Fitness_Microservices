@@ -1,0 +1,6 @@
+@Elevate.Notifications_HostAddress = http://localhost:5249
+
+GET {{Elevate.Notifications_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

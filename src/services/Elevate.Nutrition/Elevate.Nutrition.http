@@ -1,0 +1,6 @@
+@Elevate.Nutrition_HostAddress = http://localhost:5194
+
+GET {{Elevate.Nutrition_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

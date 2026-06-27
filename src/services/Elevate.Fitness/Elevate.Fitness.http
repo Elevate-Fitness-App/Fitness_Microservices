@@ -1,0 +1,6 @@
+@Elevate.Fitness_HostAddress = http://localhost:5082
+
+GET {{Elevate.Fitness_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
