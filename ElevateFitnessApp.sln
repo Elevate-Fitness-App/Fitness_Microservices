@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.Auth", "src\service
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.Profile", "src\services\Elevate.Profile\Elevate.Profile.csproj", "{60FB542F-4ED2-4D04-BF38-CD38BF40EED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.Fitness", "src\services\Elevate.Fitness\Elevate.Fitness.csproj", "{6C902DF4-5DE1-45FC-BFFC-4700930DE217}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.FitnessCalculation", "src\services\Elevate.Fitness\Elevate.FitnessCalculation.csproj", "{6C902DF4-5DE1-45FC-BFFC-4700930DE217}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.Workout", "src\services\Elevate.Workout\Elevate.Workout.csproj", "{80194B18-E3BD-4B85-A625-3E9B14C8DF20}"
 EndProject
@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elevate.smartCoach", "src\s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{44248BE9-789C-4F44-A570-87CA3D342197}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fitness", "Fitness", "{CF9A0253-0ED2-4CC6-B2D2-FB83B71B44D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitnessCalculation", "FitnessCalculation", "{CF9A0253-0ED2-4CC6-B2D2-FB83B71B44D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notifications", "Notifications", "{1CAF479A-7C02-4840-AD35-1CAB32686BF0}"
 EndProject
