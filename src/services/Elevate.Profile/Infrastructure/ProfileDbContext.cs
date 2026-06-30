@@ -15,7 +15,7 @@ namespace Elevate.Profile.Infrastructure
         public DbSet<UserPreferences> UserPreferences { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+           
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ProfileDbContext).Assembly);
         }
     }

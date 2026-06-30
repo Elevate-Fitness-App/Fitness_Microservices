@@ -16,6 +16,42 @@ namespace Elevate.Profile.Infrastructure.Persistance.Configrations
 
 
 
+
+
+            builder.HasKey(x => x.UserId);
+
+            builder.Property(x => x.UserId)
+                   .ValueGeneratedNever();
+
+            builder.Property(x => x.Language)
+                   .HasConversion<string>()
+                   .HasMaxLength(10)
+                   .IsRequired();
+
+            builder.Property(x => x.Theme)
+                   .HasConversion<string>()
+                   .HasMaxLength(15)
+                   .IsRequired();
+
+            builder.Property(x => x.WeightUnit)
+                   .HasConversion<string>()
+                   .HasMaxLength(5)
+                   .IsRequired();
+
+            builder.Property(x => x.HeightUnit)
+                   .HasConversion<string>()
+                   .HasMaxLength(5)
+                   .IsRequired();
+
+            builder.Property(x => x.DistanceUnit)
+                   .HasConversion<string>()
+                   .HasMaxLength(5)
+                   .IsRequired();
+
+         
+
+
+
         }
     }
 }

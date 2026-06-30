@@ -11,5 +11,7 @@ namespace Elevate.Profile.Domain
 
         public bool ShowProgressToFriends { get; set; } = false;
         public bool AllowDataSharing { get; set; } = false;
+
+        public UserProfile UserProfile { get; set; } = null!;
     }
 }
